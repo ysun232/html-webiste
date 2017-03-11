@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head><title>A2Question2</title>
+        <style>
+            ul{
+                list-style-type: none;
+                margin: 25px;
+                padding: 0px;
+                width: 200px;
+                background-color: lightgrey;
+                color:white;
+            }
+            li a {
+                display:block;
+                color: white;
+                text-decoration: none;
+                padding:10px 0px 10px 20px;
+            }
+            li a.chosen{
+                background-color: darkgreen;
+                color: white;
+            }
+            li a:hover:not( .chosen) {
+                background-color:black;
+                color:white;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h1>Vertical Navigation Bar</h1>
+        <p>"Home" is the current page. There are four menu items.</p>
+        <ul>
+            <li><a class="chosen" href="home">Home</a></li>
+            <li><a href="news">News</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="about">About</a></li>
+        </ul>
+    </body>
+</html>
