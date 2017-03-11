@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 1 Part 4</title>
+        <style>
+            span{
+                font-weight: bold;
+            }
+            body{
+                background-color: azure;    
+            }
+            #legend1{
+                color: deeppink;
+            }
+            #el11{
+                border-color:deeppink;
+                color:lightpink;
+                background-color:lightyellow;
+                /*font-weight: 900;*/
+            }
+            #legend2{
+                color:blue;
+            }
+            #el22{
+                border-color: blue;
+                color:lightblue;
+                background-color: darkmagenta;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Music Lover's Survey<a href="http://findicons.com/files/icons/464/acoustic_guitars/128/guitar4.png"><img alt="Guitar" src="http://findicons.com/files/icons/464/acoustic_guitars/128/guitar4.png" width="50" height="50"/></a>
+        </h1>
+        <form action="A1Part3_2.php">
+            <fieldset id="el11">
+                <legend id="legend1">Music Lover's Personal Information</legend>
+                <span>First name:</span><input type="text" name="firstname"><br><br>
+                <span>Family name:</span> <input type="text" name="lastname">
+            <br><br>
+                <span>Gender:</span> 
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Male">Male
+            <br><br>
+                <span>What age category are you from?</span>
+            <select>
+            <option id="age1" value="under 18">under 18</option>
+            <option id="age2" value="over 18">over 18</option>
+            </select><br><br>
+                <span>Email:</span><input type="text" name="email">
+            <br>
+            </fieldset>
+            <br>
+            
+            <fieldset id="el22">
+                <legend id="legend2">Survey Questions</legend>
+                <span>Which type of music do you listen to?(Pick as many as apply)</span><br>
+            <input type="checkbox" name="Blues">Blues
+            <input type="checkbox" name="Classical music">Classical music
+            <input type="checkbox" name="Electronic music">Electronic music<br>
+            <input type="checkbox" name="Hip Hop/Rap">Hip Hop/Rap
+            <input type="checkbox" name="Pop (Popular music)"> Pop (Popular music)
+            <input type="checkbox" name="Reggae">Reggae<br>
+            <input type="checkbox" name="other">other
+            <br><br>
+                <span>What size of pizza do you prefer?</span>
+            <select>
+                <option id="size1" value="Small">Small</option>
+                <option id="size2" value="Medium">Medium</option>
+                <option id="size3" value="Large">Large</option>
+            </select><br><br>
+                <span>List you 3 favorite artist/bands:</span><br>
+            <input type="text" name="firstartist">
+            <input type="text" name="secondartist">
+            <input type="text" name="thirdartist">
+            <br><br>
+                <span>If you were to win tickets which show would you like 2 tickets to?</span><br>
+            <input type="radio" name="artist" value="BRIT FLOYD (March 24, 2016)">BRIT FLOYD (March 24, 2016)
+            <input type="radio" name="artist" value="IRON MAIDEN (April 1, 2016)">IRON MAIDEN (April 1, 2016)
+            <input type="radio" name="artist" value="JANET JACKSON (June 17, 2016)">JANET JACKSON   (June 17, 2016)
+            <input type="radio" name="artist" value="ADELE (September 30, 2016)">ADELE (September   30, 2016)    
+            <br>
+            </fieldset><br>
+            Thank you for taking the time to fill out our survey!
+            <br><br>
+            <button type="submit" value="Submit">Submit</button>
+            <button type="reset" value="Reset">Reset</button>
+        </form><br>
+    </body>
+</html>
