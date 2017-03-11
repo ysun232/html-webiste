@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Find Dog</title>
+        <link rel="stylesheet" href="DogCatCSS.css">
+    </head>
+    <body>
+     <div id="container">
+            <div id="header">
+        <a href="HomePage.html">Sunny Pet Adoption Services<img alt src="http://www.clker.com/cliparts/s/y/s/q/h/R/cartoon-sun-hi.png" width="100" height="100"></a>
+            </div>
+        
+                    <div id="side-menu">
+                        <ul>
+                            <li><a href="HomePage.html">Home Page</a></li>
+                            <li><a href="BrowseAvailablePets.html">Browse Available Pets</a></li>
+                            <li><a href="FindADogCat.html">Find a Dog or Cat</a></li>
+                            <li><a href="DogCatCare.html">Dog or Cat Care</a></li>
+                            <li><a href="PetGiveAway.html">About Giving a Pet Away</a></li>
+                            <li><a href="ContactUs.html">Contact Us</a></li>
+                        </ul>
+                        
+                    </div>
+                    
+                    <div id="form">
+        <form action="Findadogcat" method="post">
+            <fieldset>
+                <h3>Find a Dog or Cat Form</h3>
+                
+                Dog or Cat?
+                <input type="radio" name="DorC" value="Dog">Dog
+                <input type="radio" name="DorC" value="Cat">Cat
+                <br><br>
+                
+                Breed of dog or cat:<br>
+                Please enter the breed of dog or cat you are looking for:<br><input type="text" name="breed"><br>
+                <input type="radio" name="breed" value="None">I do not mind.<br><br>
+                
+                Preferred age of pet:
+                <select>
+                    <option id="age1" value="1">1</option>
+                    <option id="age2" value="2">2</option>
+                    <option id="age3" value="3">3</option>
+                    <option id="age4" value="4">4</option>
+                    <option id="age5" value="5">5</option>
+                    <option id="age6" value="6">6</option>
+                    <option id="age7" value="7">7</option>
+                    <option id="age8" value="8">8</option>
+                    <option id="age9+" value="9+">9 or older</option>
+                </select><br><br>
+                
+                Preferred gender of pet:
+                <select>
+                    <option id="male" value="male">Male</option>
+                    <option id="female" value="female"> Female</option>
+                    <option id="None" value="none">I do not mind</option>
+                </select>
+                <br><br>
+                
+                Pet needs to get along with:<br>
+                <input type="checkbox" value="odogs">Other dogs
+                <input type="checkbox" value="ocats">Other cats
+                <input type="checkbox" value="child">Small children
+                <br><br>
+                
+                <button type="submit" value="Submit">Submit</button>
+                <button type="reset" value="Clear">Clear</button>
+            </fieldset>
+            </form>
+            </div>
+                    <div id="footer">
+                        All information submitted through this website will not be sold nor misused for any reason. By submitting information, the user also agrees that any incorrect information posted by a pet owner will be entirely the pet owner's fault and the website will have no responsibility.The image on the header was taken from: http://www.clker.com/cliparts/s/y/s/q/h/R/cartoon-sun-hi.png, I do not own any right to the image.
+                    </div>
+        </div>
+       
+    </body>
+</html>

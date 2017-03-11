@@ -1,0 +1,99 @@
+#container{
+    background-color: aliceblue;
+    position:relative;
+    padding: 0px 0px 0px 0px;
+}
+#header{
+    text-align:left;
+}
+#header a{
+    text-decoration: none;
+    font-size: 50px;
+}
+#header a:hover{
+    color:red;
+    text-decoration: none;
+}
+#side-menu{
+    float:left;
+    width:200px;
+    height: 280px;
+    background-color: skyblue;
+}
+
+#side-menu li{
+    list-style: disc;
+    color:blue;
+    margin-right: 20px;
+}
+#side-menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+#side-menu li a:hover{
+    color: white;
+}
+
+#content-area{
+    margin-left:200px;
+    margin-right:300px;
+    padding-bottom:112px;
+    padding-left:30px;
+    padding-top:30px;
+    padding-right:30px;
+    background-color:white; 
+    font-size: 20px;
+}
+
+#footer{
+    margin-top: 20px;
+    background-color: darkgrey;
+    color:white;
+    font-size: 15px;
+    bottom:0px;
+}
+
+#form{
+    background-color: white;
+    margin-left:200px;
+    margin-right:350px;
+    font-size:20px;
+}
+
+
+#give-away form{
+    margin-left: 204px;
+    margin-right:300px;
+    background-color: white;
+}
+
+
+#care-content{
+    margin-left: 200px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom: 89px;
+    background-color: white;
+    padding-top:20px;
+    margin-right:300px;
+}
+#contact{
+    font-size:20px;
+    padding-left:50px;
+    padding-top:30px;
+    background-color: white;
+    margin-left:200px;
+    margin-right:350px;
+    padding-bottom:98px;
+}
+#browse{
+    padding-top:18px;
+    margin-left: 200px;
+    background-color: white;
+    margin-right:300px;
+    padding-bottom:133px;
+    padding-left:30px;
+    font-size:20px;
+}
